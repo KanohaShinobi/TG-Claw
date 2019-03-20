@@ -14,13 +14,13 @@ $include antag_rep.txt
 # There are various options which are hard-locked for security reasons.
 
 ## Server name: This appears at the top of the screen in-game and in the BYOND hub. Uncomment and replace 'tgstation' with the name of your choice.
- @SERVERNAME Bad Deathclaw TG Edition
+ @SERVERNAME Resurgence: Mojave Blues
 
 ## Server SQL name: This is the name used to identify the server to the SQL DB, distinct from SERVERNAME as it must be at most 32 characters.
- SERVERSQLNAME baddeathclaw
+ SERVERSQLNAME mojaveblues
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME Bad Deathclaw
+STATIONNAME Resurgence: Mojave Blues
 
 ## Put on byond hub: Uncomment this to put your server on the byond hub.
 HUB
@@ -213,16 +213,16 @@ CHECK_RANDOMIZER
 # SERVER ss13.example.com:2506
 
 ## forum address
-# FORUMURL http://tgstation13.org/phpBB/index.php
+FORUMURL https://discord.gg/MFqmpBv
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL https://discord.gg/Tnrms9Y
 
 ## Rules address
-RULESURL https://www.docdroid.net/Lwrciqr/bad-deathclaw-rules.pdf
+RULESURL https://discord.gg/S87aeXR
 
 ## Github address
-GITHUBURL https://github.com/Digdugxx/TG-Claw
+GITHUBURL https://github.com/2cwldys/Mojave-Blues
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -238,7 +238,7 @@ GITHUBURL https://github.com/Digdugxx/TG-Claw
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization
-GITHUBREPOID 138069316
+GITHUBREPOID 176208775
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 # BANAPPEALS http://justanotherday.example.com
@@ -274,10 +274,11 @@ TICK_LIMIT_MC_INIT 500
 
 ##Defines the ticklag for the world. Ticklag is the amount of time between game ticks (aka byond ticks) (in 1/10ths of a second).
 ##	This also controls the client network update rate, as well as the default client fps
-#TICKLAG 0.5
+TICKLAG 0.7
+## 0.5 is default
 
 ##Can also be set as per-second value, the following value is identical to the above.
-FPS 40
+FPS 60
 
 ## Comment this out to disable automuting
 #AUTOMUTE_ON
@@ -382,6 +383,8 @@ AUTOADMIN_RANK Game Master
 #CLIENT_WARN_MESSAGE Byond released 511 as the stable release. You can set the framerate your client runs at, which makes the game feel very different and cool. Shortly after its release we will end up using 511 client features and you will be forced to update.
 CLIENT_ERROR_VERSION 511
 CLIENT_ERROR_MESSAGE Your version of byond is not supported. Please upgrade.
+## The minimum build needed for joining the server, if using 512, a good minimum build would be 1421 as that disables the Middle Mouse Button exploit.
+CLIENT_ERROR_BUILD 1421
 
 ## TOPIC RATE LIMITING
 ## This allows you to limit how many topic calls (clicking on an interface window) the client can do in any given game second and/or game minute.

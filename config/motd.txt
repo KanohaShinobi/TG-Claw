@@ -1,18 +1,19 @@
 <!-- Most valid html will work in here, excluding images. -->
 
-<h1>Welcome to Bad Deathclaw!</h1>
+<h1>Welcome to Mojave Blues!</h1>
 
 <b>This is an 18+ server, do not play if you are underage.</b>
+<b>This is hosted and ran by the Resurgence Community, lead by 2cwldys.</b>
 
 <i>
-Don't be a dick, and <b>read the rules</b> before you play.
+Don't be a dick, and <a href="https://discord.gg/RF3PaH">read the rules</a> before you play.
 
 Development is active and we are always looking for more talent, we are open source and running a ported /tg/ version of legacy F13 code.
 
-Questions regarding the sever can be directed to anyone roled as a Scribe or Paladin on our Discord.
+Questions regarding the server can be directed to anyone roled as an Administrator on our Discord.
 
-Github: https://github.com/BadDeathclaw/TG-Claw
-Discord: https://discord.gg/pY33Q8c
+Github: https://github.com/2cwldys/Mojave-Blues
+Discord: https://discord.gg/MFqmpBv
 
-This server takes place before the Second Battle of Hoover Dam, in Nevada.
+This server takes place after the annexation of the New Vegas Strip by NCR forces.
 </i>

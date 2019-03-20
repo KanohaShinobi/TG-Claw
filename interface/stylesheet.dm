@@ -7,7 +7,7 @@
 // Sample font-size: DM: 8 CSS: 64px
 
 /client/script = {"<style>
-body					{font-family: Verdana, sans-serif;}
+body					{font-family: Verdana, sans-serif; background-color: #242424; color: white; /*text-shadow: inherit 0 0 10px;*/}
 
 h1, h2, h3, h4, h5, h6	{color: #0000ff;	font-family: Georgia, Verdana, sans-serif;}
 
@@ -25,8 +25,8 @@ em						{font-style: normal;	font-weight: bold;}
 
 .prefix					{					font-weight: bold;}
 
-.ooc					{					font-weight: bold;}
-.looc					{color: #6699CC'	font-weight: bold;}
+.ooc					{color: #89FFAF;	font-weight: bold;}
+.looc					{color: #6699CC;	font-weight: bold;}
 .adminobserverooc		{color: #0099cc;	font-weight: bold;}
 .adminooc				{color: #700038;	font-weight: bold;}
 
